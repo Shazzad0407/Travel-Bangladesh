@@ -1,0 +1,150 @@
+.placeDetail{
+    width: 100%;
+    float: left !important;
+}
+.placeDetail nav{
+        width: 100%;
+    margin-top: 50px;
+}
+.placeDetail nav a{
+        color: var(--dark) !important;
+    border-bottom-color: #aaa !important;
+}
+.placeDetail nav .active{
+        background-color: var(--danger) !important;
+    border-color: var(--gray-dark) #dee2e6 !important;
+    color: #fff !important;
+}
+
+
+#nav-home p, #nav-profile p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    padding: 18px;
+    color: #434343;
+    line-height: 24px;
+    text-align: justify;
+}
+#nav-home h4{
+      font-size: 16px;
+      margin-left: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+#nav-profile ol{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    padding: 18px;
+    color: #434343;
+    padding-bottom: 0
+}
+#nav-contact h5{
+     font-family: 'Roboto', sans-serif !important;
+    margin-left: 76px;
+    font-size: 30px;
+    font-family: sans-serif;
+    margin-top: 20px;
+}
+#nav-contact p{
+   font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    padding: 18px;
+    color: #434343;
+    line-height: 24px;
+}
+
+#nav-contact button{
+    border-radius: 10px;
+    padding: 10px 15px;
+    background-color: var(--danger);
+    float: right;
+    margin-right: 21px;
+    margin-bottom: 25px;
+}
+.topP{
+    margin-top: 20px;
+}
+.commentDesc{
+    margin-top: 20px;
+}
+.commentDesc h5{
+    margin-left: 58px;
+    font-size: 30px;
+    color: #434343;
+    font-family: 'Roboto','AdorshoLipi', 'Open Sans Condensed', sans-serif;
+
+}
+.comment ul li .commentBody .commentDesc p {
+   margin: 0 !important;
+    margin-left: 60px !important;
+    text-align: justify;
+    padding-left: 0;
+    font-family: 'Roboto','AdorshoLipi', 'Open Sans Condensed', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+/*-----------blog--*/
+.blogForPlace{
+    margin: 0;
+}
+.blogForPlace .rb p {
+    padding: 0;
+    text-align: left;
+    color: #5c656d;
+    line-height: 20px;
+}
+.blogForPlace .rb .time{
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+/*-------package----*/
+.packageForPlace, .packageForPlace .topP{
+    margin: 0 ;
+}
+.packageForPlace .packageBanner{
+    border-radius: 0px !important;
+}
+
+/*-------hotel for place----*/
+.hotelForPlace, .hotelForPlace .topP{
+    margin: 0;
+}
+
+/*-------hotel for restaurent----*/
+.hotelForPlace, .hotelForPlace .topP{
+    margin: 0;
+}
+
+
+
+/*----review-----*/
+.givedRate{
+    width: 100%;
+}
+.givedRate h1{
+    float: left;
+    width: 50%;
+    margin-top: 0px !important;
+    text-transform: uppercase;
+    color: #383737;
+}
+.givedRate .rating{
+    width: 50%;
+    float: left;
+}
+
+
+@media (max-width: 992px){
+        .packageForPlace .topP .myPadding .rp img {
+        max-width: 223px;
+    }
+        .rb .wnd {
+        width: 50%;
+    }
+        .rbImg {
+        height: 200px !important;
+    }
+}
+
+
